@@ -46,7 +46,6 @@ public static class AabbSweep {
         return tEnter > 0f;
     }
 
-// AabbSweep
     public static bool TryComputeMinimumTranslation(in BoundingBoxes a, in BoundingBoxes b, out Vector3 t)
     {
         t = Vector3.Zero;
